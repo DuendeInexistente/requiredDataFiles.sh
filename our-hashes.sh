@@ -1,4 +1,8 @@
 #!/bin/bash
+#How to use:
+#Replace "./settings/home/openmw/openmw.cfg" (Line 25) with the path to the openmw.cfg used by the server.
+#Replace "settings/gamefiles"(Line 12) with the path where you have your game and modded files. You have them all in one neat location, right? Right?
+
 
 echo "[" > requiredDataFiles.json
 wholething=$(while read p; do
